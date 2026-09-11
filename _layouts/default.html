@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  <div class="Site">
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+  </div>
+
+  <!-- ✅ Load theme toggle script -->
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+
+</body>
+
+</html>

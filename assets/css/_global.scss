@@ -1,0 +1,100 @@
+$background-light: #ffffff;
+$font-light: #000000;
+$primary-color-light: #ff7f00;
+
+$background-dark: #000000;
+$font-dark: #ffffff;
+$primary-color-dark: #ff7f00;
+
+
+html, body {
+  font-family: $body-font;
+  font-size: 16px;
+  line-height: 1.5;
+
+  transition: background-color 0.4s ease, color 0.4s ease;
+
+  @media (max-width: $large-screen) {
+    font-size: 14px;
+  }
+
+  @media (max-width: $mid-screen) {
+    font-size: 13px;
+  }
+
+  @media (max-width: $small-screen) {
+    font-size: 12px;
+  }
+}
+
+
+body {
+  background-color: $background-light;
+  color: $font-light;
+  min-height: 100vh;
+}
+
+a {
+  color: $primary-color-light;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: lighten($primary-color-light, 10%);
+  }
+}
+
+body.dark-mode {
+  background-color: $background-dark;
+  color: $font-dark;
+}
+
+body.dark-mode a {
+  color: $primary-color-dark;
+
+  &:hover {
+    color: lighten($primary-color-dark, 10%);
+  }
+}
+
+.Site {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h4, h5, h6 {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

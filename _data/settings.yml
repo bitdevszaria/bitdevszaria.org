@@ -1,0 +1,8 @@
+title: 'BitDevs Zaria'
+tagline: 'BitDevs Zaria is a monthly meetup devoted to the research and development of Bitcoin'
+
+menu:
+  # TODO: replace with your real social/community links
+  - {name: 'X', url: 'https://x.com/TODO_bitdevszaria', external: true}
+  - {name: 'Telegram', url: 'https://t.me/TODO_bitdevszaria', external: true}
+  - {name: 'Luma', url: 'https://lu.ma/TODO_bitdevszaria', external: true}
