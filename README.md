@@ -35,8 +35,8 @@ All site configurations are either contained in `_config.yml` or
 Jekyll injects variables, so be sure to update both.
 
 Social/community links live in the `menu` list in `_data/settings.yml` — fill
-in the `TODO_bitdevszaria` placeholders with your real X, Telegram, and
-Luma/Meetup URLs.
+in the `TODO_bitdevszaria` placeholders with your real Discord and Luma/Meetup
+URLs.
 
 ## Attributions
 
