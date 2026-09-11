@@ -2,7 +2,7 @@ title: 'BitDevs Zaria'
 tagline: 'BitDevs Zaria is a monthly meetup devoted to the research and development of Bitcoin'
 
 menu:
-  # TODO: fill in the Discord invite and Luma links
+  # TODO: fill in the Discord invite link
   - {name: 'X', url: 'https://x.com/bitdevszaria', external: true}
   - {name: 'Discord', url: 'https://discord.gg/TODO_bitdevszaria', external: true}
-  - {name: 'Luma', url: 'https://lu.ma/TODO_bitdevszaria', external: true}
+  - {name: 'Luma', url: 'https://luma.com/user/usr-67ZOERsRyR3JVcn', external: true}
