@@ -9,21 +9,21 @@ $primary-color-dark: #ff7f00;
 
 html, body {
   font-family: $body-font;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5;
 
   transition: background-color 0.4s ease, color 0.4s ease;
 
   @media (max-width: $large-screen) {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   @media (max-width: $mid-screen) {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   @media (max-width: $small-screen) {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 

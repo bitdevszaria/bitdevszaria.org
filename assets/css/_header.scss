@@ -17,8 +17,14 @@
   }
 
   &-logo {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     color: $font-color; 
+
+    a {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 0.16em;
+    }
 
     @media (max-width: $small-screen) {
       font-size: 1.8rem;
@@ -45,7 +51,7 @@
 
   &-nav {
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 
     @media (max-width: $small-screen) {
       font-size: 1.1rem;
