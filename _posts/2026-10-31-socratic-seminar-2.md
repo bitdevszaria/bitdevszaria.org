@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "Socratic Seminar #2: Proof of Work and Bitcoin Development"
+title: "Socratic Seminar #2"
 ---
 
 Welcome to BitDevs Zaria's second Socratic Seminar.

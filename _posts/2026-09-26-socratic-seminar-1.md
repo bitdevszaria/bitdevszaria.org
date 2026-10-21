@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "Socratic Seminar #1: Getting Started with Bitcoin"
+title: "Socratic Seminar #1"
 meetup: https://luma.com/zc84r9wn
 ---
 
